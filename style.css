@@ -1,5 +1,6 @@
 body{
     font-family: 'Reggae One', cursive;
+    margin: 0px;
 }
 h1{
     font-size: 50px;
@@ -9,9 +10,11 @@ h1{
 }
 .sami{
     font-size: 28px;
+    
 }
 .sam{
     font-size: 25px;
+    color: dimgray;
 }
 .apple{
     width: 40%;
@@ -21,4 +24,79 @@ h1{
 }
 .apple img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 200px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(90deg, yellow,red);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: blue;
+    font-weight: bolder;
+}
+.small img{
+    width: 71%;
+}
+.small{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%
+}
+.small h2{
+    font-size: 32px;
+}
+.small h3{
+    font-size: 26px;
+    color: dimgrey;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 200px ;
+}
+.applet{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2% ;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+    background-image: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: whitesmoke;
+}
+.applet h2{
+    font-size: 32px;
+}
+.applet h3{
+    font-size: 26px;
+    color:orange;
+}
+.applet p{
+    font-size: 20px;
+    color: dimgray;
+}
+#color-box{
+    border-left: 7px solid;
+    border-image: linear-gradient(yellow,green);
+    border-image-slice: 1;
+}
+#web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
