@@ -7,3 +7,18 @@ h1{
 .samir{
     color: orange;
 }
+.sami{
+    font-size: 28px;
+}
+.sam{
+    font-size: 25px;
+}
+.apple{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%
+}
+.apple img{
+    width: 100%;
+}
